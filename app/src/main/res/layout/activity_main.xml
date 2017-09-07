@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+   android:orientation="vertical"
+    tools:context="com.finddoctor.surya.findmedoctor.MainActivity"
+    android:weightSum="1"
+    android:background="#eae8e8">
+
+    <ImageView
+        android:layout_width="342dp"
+        android:layout_height="266dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/h" />
+
+    <TextView
+        android:layout_width="351dp"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Find Doctors :"
+        android:id="@+id/textView"
+        android:textSize="30dp"
+        android:paddingLeft="40dp"
+        android:paddingTop="1dp"
+        android:layout_weight="0.11" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.12" />
+
+    <Button
+        android:layout_width="261dp"
+        android:layout_height="53dp"
+        android:text="By Name"
+        android:id="@+id/button2"
+
+        android:layout_gravity="right"
+        android:textSize="25dp"
+        android:layout_weight="0.06"
+        android:onClick="name"
+        android:focusable="true"
+        android:shadowColor="#564444"
+        android:singleLine="false"
+        android:background="#db0590" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <Button
+        android:layout_width="294dp"
+        android:layout_height="87dp"
+        android:text="By Symptoms"
+        android:id="@+id/button"
+        android:layout_gravity="right"
+        android:onClick="symp"
+        android:background="#de2959"
+        android:textSize="30dp" />
+
+</LinearLayout>

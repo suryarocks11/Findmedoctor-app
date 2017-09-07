@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.finddoctor.surya.findmedoctor.doc7"
+    android:weightSum="1"
+    android:onClick="map7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="We Think You Need A Gastroenterologists"
+        android:id="@+id/textView13"
+        android:layout_weight="0.11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hospital/Clinic Name : Dr. Indraneel Saha Clinic"
+        android:id="@+id/textView24"
+        android:layout_weight="0.03" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Address : 375, Prince Anwar Shah Road, South City Tower- I, Flat- 2A, Kolkata, West Bengal 700068"
+        android:id="@+id/textView25"
+        android:layout_weight="0.04" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Doctor Name : Dr. Indraneel Saha"
+        android:id="@+id/textView26"
+        android:layout_weight="0.04" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See On Map"
+        android:id="@+id/button10"
+        android:onClick="map7" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView6"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.11" />
+</LinearLayout>

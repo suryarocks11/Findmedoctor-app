@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.finddoctor.surya.findmedoctor.doc3"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="We Think You Need A Neurologist"
+        android:id="@+id/textView9"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hospital/Clinic Name : Dr. Ghosh Charitable Trust - Brain Diagnostic Center"
+        android:id="@+id/textView15"
+        android:layout_weight="0.07" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Address :  Shop No. 14/A/2, CIT Scheme - 8M, Bidhan Nagar Rd, Bidhan Nagar, BRS 3, Ghose Bagan, Kolkata, West Bengal 700067"
+        android:id="@+id/textView36"
+        android:layout_weight="0.06" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Doctor Name : Dr. Siddhartha Ghosh "
+        android:id="@+id/textView37"
+        android:layout_weight="0.06" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="See On Map"
+        android:id="@+id/button4"
+        android:onClick="map3" />
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView5"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.06" />
+</LinearLayout>
